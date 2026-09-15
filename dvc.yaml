@@ -1,0 +1,8 @@
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+    - data/titanic.csv
+    - src/preprocess.py
+    outs:
+    - data/processed.csv
