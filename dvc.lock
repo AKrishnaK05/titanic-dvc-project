@@ -5,14 +5,14 @@ stages:
     deps:
     - path: data/titanic.csv
       hash: md5
-      md5: 2309cc5f04782ed9bb6016d9f4e381cf
+      md5: 054d5e975891c730cb85d7d4c51aa07d
       size: 61194
     - path: src/preprocess.py
       hash: md5
-      md5: 75abd361f8d5c5ff640c0341150c91a2
-      size: 845
+      md5: 1c617131feb4f2090c14c7f64ad2da63
+      size: 843
     outs:
     - path: data/processed.csv
       hash: md5
-      md5: 904075bf668e1fcf2459ead781935b6b
-      size: 21483
+      md5: bef92ce609230e2de576360898f0da64
+      size: 23784

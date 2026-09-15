@@ -9,7 +9,7 @@ def preprocess(input_path="data/titanic.csv", output_path="data/processed.csv"):
 
     # Handle missing values
     if "Age" in df.columns:
-        df["Age"] = df["Age"].fillna(df["Age"].median())
+        df["Age"] = df["Age"].fillna(df["Age"].mean())
     if "Embarked" in df.columns:
         df["Embarked"] = df["Embarked"].fillna(df["Embarked"].mode()[0])
 
